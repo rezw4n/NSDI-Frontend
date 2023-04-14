@@ -2194,5 +2194,28 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.layers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1031px) {
+  .layers-section > iframe {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .layers-section > iframe {
+    height: 120vh;
+  }
+}
+@media only screen and (min-width: 1032px) {
+  .layers-section > iframe {
+    height: 70vh;
+  }
 }
