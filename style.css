@@ -2308,6 +2308,7 @@ article:has(:hover, :focus) {
   padding-inline: 24px;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 24px;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 960px) {
@@ -2353,4 +2354,120 @@ article:has(:hover, :focus) {
 .article-body > p {
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+/* NSDI Mission CSS */
+.body1 {
+  text-align: left;
+  letter-spacing: 0.25px;
+  font-size: 19px;
+  line-height: 30px;
+}
+.color-white {
+  color: #fff;
+}
+.desktop-space-80 {
+  height: 80px;
+}
+.our-mission {
+  background-color: #1d1d1d;
+  padding-top: 160px;
+  position: relative;
+}
+.box-485 {
+  width: 100%;
+  max-width: 485px;
+}
+.color-light-green {
+  color: #00b085;
+}
+.our-mission-content {
+  max-width: 840px;
+  background-color: #00b085;
+  padding: 120px 102px;
+}
+.our-mission-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  overflow: hidden;
+}
+.image-8 {
+  width: auto;
+  height: 100%;
+  max-width: 9999px;
+}
+.hide {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .body1 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .desktop-space-80.tablet-space-64 {
+    height: 64px;
+  }
+  .desktop-space-80.tablet-space-64 {
+    height: 64px;
+  }
+  .our-mission {
+    padding-top: 120px;
+  }
+  .box-485.tablet-text-align-center {
+    text-align: center;
+  }
+  .box-485.tablet-text-align-center.tablet-margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .our-mission-content {
+    text-align: center;
+    padding: 80px 48px;
+  }
+  .our-mission-bg {
+    height: 505px;
+    margin-top: -224px;
+    position: static;
+  }
+  .image-8 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 479px) {
+  .body1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .body1.color-white.mobile-body1-md {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .our-mission {
+    padding-top: 64px;
+  }
+  .our-mission-content {
+    padding: 40px 24px;
+  }
+  .our-mission-bg {
+    height: 361px;
+    margin-top: -106px;
+  }
+  .image-8 {
+    height: 100%;
+  }
+}
+
+.featured-btn {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.featured-btn > .button-light-green {
+  border-radius: 25px;
 }
